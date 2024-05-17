@@ -1,7 +1,8 @@
-name = "hono-app"
 compatibility_date = "2023-12-01"
+compatibility_flags = ["nodejs_compat"]
 main = "src/index.ts"
 minify = true
+name = "hono-app"
 
 # [vars]
 # MY_VAR = "my-variable"
@@ -14,10 +15,10 @@ minify = true
 # binding = "MY_BUCKET"
 # bucket_name = "my-bucket"
 
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "my-database"
-# database_id = ""
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_id = "a755d1bc-ae47-4d18-b1bd-46bf381dcf1d"
+database_name = "hono-db"
 
 # [ai]
 # binding = "AI"
