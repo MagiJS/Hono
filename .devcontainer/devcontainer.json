@@ -30,9 +30,9 @@
         "PKief.material-icon-theme",
         "antfu.file-nesting",
         "biomejs.biome",
-        "bradlc.vscode-tailwindcss",
         "eamodio.gitlens",
-        "ms-vscode.vscode-typescript-next"
+        "ms-vscode.vscode-typescript-next",
+        "be5invis.toml"
       ],
       "settings": {
         "betterTypeScriptErrors.prettify": true,
