@@ -14,7 +14,4 @@ app.onError((err, c) => {
   return c.text('Internal Server Error', 500)
 })
 
-export default {
-  port: 3000,
-  fetch: app.fetch
-}
+export default app
